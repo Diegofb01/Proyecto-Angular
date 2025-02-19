@@ -1,0 +1,18 @@
+#footer {
+    background-color: #f0f0f0; 
+    color: #333; 
+    padding: 16px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-top: 2px solid #d50000; 
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  #footer span {
+    font-size: 14px; 
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto; 
+  }

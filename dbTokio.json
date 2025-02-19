@@ -1,0 +1,22 @@
+{
+    "sitios":[
+        {
+            "name":"Templo Sensoji",
+            "description":"El Templo Sensoji es el templo budista más antiguo de Tokio, Japón. Se encuentra en Asakusa, un barrio de Tokio. También es uno de los templos más coloridos y populares de Tokio.",
+            "parrafo1":"El templo fue fundado en el año 645, por lo que es el templo más antiguo de Tokio. El templo está dedicado a Kannon, la diosa de la misericordia. Una leyenda cuenta que dos hermanos pescadores encontraron una estatua de Kannon en el río Sumida y la llevaron a su jefe, quien reconoció la importancia de la estatua y la consagró. El templo se construyó para honrar a Kannon.",
+            "parrafo2":"El templo ha sido reconstruido muchas veces a lo largo de los siglos, pero siempre ha conservado su importancia como lugar de culto y como centro de la vida cultural de Asakusa.",
+            "imageUrl":"../assets/img/temploSensoji.jpg",
+            "imageGallery":[
+                "../assets/img/temploSensoji1.jpg",
+                "../assets/img/temploSensoji2.jpg",
+                "../assets/img/temploSensoji3.jpg",
+                "../assets/img/temploSensoji4.jpg",
+                "../assets/img/temploSensoji5.jpg"
+            ],
+            "rating":[],
+            "comments":[],
+            "commentUser":[],
+            "id":"templo_sensoji"
+        }
+    ]
+}
