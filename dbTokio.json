@@ -10,13 +10,15 @@
                 "../assets/img/temploSensoji1.jpg",
                 "../assets/img/temploSensoji2.jpg",
                 "../assets/img/temploSensoji3.jpg",
-                "../assets/img/temploSensoji4.jpg",
-                "../assets/img/temploSensoji5.jpg"
+                "../assets/img/temploSensoji4.jpg"
             ],
             "rating":[],
             "comments":[],
             "commentUser":[],
             "id":"templo_sensoji"
+        },
+        {
+            
         }
     ]
 }

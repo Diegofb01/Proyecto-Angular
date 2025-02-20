@@ -1,1 +1,48 @@
-<p>add-edit-place works!</p>
+<div class="registro">
+    <h1>Introducir los datos del sitio</h1>
+    <form [formGroup]="formPlace" (ngSubmit)="savePlace()">
+  
+      <mat-form-field class="example-form-field">
+        <mat-label>Nombre</mat-label>
+        <input matInput type="text" formControlName="name">
+      </mat-form-field>
+  
+      <mat-form-field class="example-full-width">
+        <mat-label>Descripción breve</mat-label>
+        <textarea matInput rows="2" formControlName="description"></textarea>
+      </mat-form-field>
+  
+      <mat-form-field class="example-full-width">
+        <mat-label>Párrafo 1</mat-label>
+        <textarea matInput rows="3" formControlName="parrafo1"></textarea>
+      </mat-form-field>
+  
+      <mat-form-field class="example-full-width">
+        <mat-label>Párrafo 2</mat-label>
+        <textarea matInput rows="3" formControlName="parrafo2"></textarea>
+      </mat-form-field>
+
+      <label>Imagen Principal</label>
+      <input type="file" (change)="onFileSelected($event, true)">
+      <img *ngIf="formPlace.value.imageUrl" [src]="formPlace.value.imageUrl" width="100">
+      <button mat-icon-button color="warn" (click)="removeImage(true)" *ngIf="formPlace.value.imageUrl">
+        <mat-icon>delete</mat-icon>
+      </button>
+
+      <label>Galería de Imágenes</label>
+      <div *ngFor="let img of formPlace.value.imageGallery; let i = index">
+        <img [src]="img" width="80">
+        <button mat-icon-button color="warn" (click)="removeImage(false, i)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+      <input type="file" (change)="onFileSelected($event, false)">
+
+    <div class="divBtns">
+      <button mat-button (click)="closeDialog()">Cancelar</button>
+      <button mat-flat-button color="primary" [disabled]="formPlace.invalid"
+        (click)="savePlace()">Guardar</button>
+    </div>
+    </form>
+  </div>
+  
