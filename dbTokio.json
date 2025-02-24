@@ -102,6 +102,32 @@
         "commentUser":[],
         "id":"torre_tokio"
       }
-    ]
+    ],
+    "users": [
+    {
+      "id": 1,
+      "firstName": "Mario",
+      "lastName": "García",
+      "comunidad": "Andalucía",
+      "email": "mario@gmail.com",
+      "role": "administrador",
+      "birthday": "199-11-01",
+      "gender": "masculino",
+      "phone": "123456789",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "id": 2,
+      "firstName": "Marcos",
+      "lastName": "Gómez",
+      "comunidad": "Andalucía",
+      "email": "marcos@gmail.com",
+      "role": "usuario",
+      "birthday": "1998-04-10",
+      "gender": "masculino",
+      "phone": "123456789",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    }
+  ]
   }
   

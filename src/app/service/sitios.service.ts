@@ -29,7 +29,7 @@ export class SitiosService {
 
   addPlace(data: PlaceModel): Observable<PlaceModel> {
     console.log("Creando nuevo sitio:", data);
-    return this._http.post<PlaceModel>(this.urlBBDD, data); // json-server generará el ID
+    return this._http.post<PlaceModel>(this.urlBBDD, data); 
   }
   
 
