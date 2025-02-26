@@ -1,92 +1,119 @@
 .homePage {
-    padding-top: 2%;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 1%;
-    text-align: center;
-  
-    h1 {
-      font-size: 30px;
-      font-weight: 500;
-    }
-  
-  }
-  
-  img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .parrafos{
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 3%;
-  }
-  
-  .commentsRatingDiv{
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 3%;
-  }
-  
-  
-  .ratingDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-top: 2%;
-  }
-  
-  .ratingDiv h3{
-    margin-left: 1%;
-  }
-  
-  .ratingDiv h3:nth-child(1){
-    margin-left: 2%;
-  }
-  
-  .bold{
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  hr{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 100%;
-  }
-  
-  #comments{
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-bottom: 5%;
-  }
-  
-  .comment{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3%;
-  }
-  
-  .commentRating{
-    display: flex;
-    flex-direction: row;
-    padding-top: 2%;
-  }
-  
-  .commentForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-left: 3%;
-  
-    mat-form-field{
-        width: 30%;
-    }
-  
-    button{
-        width: 30%;
-    }
-  }
-  
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.homePage h1 {
+  font-size: 36px;
+  color: #d50000;
+  margin-bottom: 20px;
+}
+
+mat-grid-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+mat-grid-tile {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+mat-grid-tile:hover {
+  transform: scale(1.05);
+}
+
+mat-grid-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#imgCentral {
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.parrafos {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parrafos h2 {
+  font-size: 22px;
+  color: #d50000;
+  margin-bottom: 10px;
+}
+
+.parrafos h3 {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.commentsRatingDiv {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Valoración */
+.ratingDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ratingDiv mat-icon {
+  font-size: 24px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 2px;
+  background: #ddd;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+.comment {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.commentRating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.commentForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+mat-form-field {
+  width: 100%;
+}

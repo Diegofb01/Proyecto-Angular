@@ -1,114 +1,113 @@
 <div class="homePage">
-    <h1 *ngIf="place">{{ place.name }}</h1>
-  </div>
-  
-  <mat-grid-list cols="5" rowHeight="170px">
+  <h1 *ngIf="place">{{ place.name }}</h1>
+</div>
 
-    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[0])">
-      <img src="{{ place.imageGallery[0] }}" alt="Imagen Galería 1" id="{{ place.imageGallery[0] }}">
+<mat-grid-list cols="5" rowHeight="170px">
+
+  <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[0])">
+    <img src="{{ place.imageGallery[0] }}" alt="Imagen Galería 1" id="{{ place.imageGallery[0] }}">
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="3" [rowspan]="4">
+    <img src="{{ place.imageUrl }}" alt="Imagen Central" id="imgCentral">
+  </mat-grid-tile>
+
+  <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[1])">
+    <img src="{{ place.imageGallery[1] }}" alt="Imagen Galería 2" id="{{ place.imageGallery[1] }}">
+  </mat-grid-tile>
+
+  <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[2])">
+      <img src="{{ place.imageGallery[2] }}" alt="Imagen Galería 3" id="{{ place.imageGallery[2] }}">
     </mat-grid-tile>
   
-    <mat-grid-tile [colspan]="3" [rowspan]="4">
-      <img src="{{ place.imageUrl }}" alt="Imagen Central" id="imgCentral">
-    </mat-grid-tile>
-  
-    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[1])">
-      <img src="{{ place.imageGallery[1] }}" alt="Imagen Galería 2" id="{{ place.imageGallery[1] }}">
+    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[3])">
+      <img src="{{ place.imageGallery[3] }}" alt="Imagen Galería 4" id="{{ place.imageGallery[3] }}">
     </mat-grid-tile>
 
-    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[2])">
-        <img src="{{ place.imageGallery[2] }}" alt="Imagen Galería 3" id="{{ place.imageGallery[2] }}">
-      </mat-grid-tile>
-    
-      <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[3])">
-        <img src="{{ place.imageGallery[3] }}" alt="Imagen Galería 4" id="{{ place.imageGallery[3] }}">
-      </mat-grid-tile>
+    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[4])">
+      <img src="{{ place.imageGallery[4] }}" alt="Imagen Galería 5" id="{{ place.imageGallery[4] }}">
+    </mat-grid-tile>
   
-      <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[4])">
-        <img src="{{ place.imageGallery[4] }}" alt="Imagen Galería 5" id="{{ place.imageGallery[4] }}">
-      </mat-grid-tile>
-    
-      <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[5])">
-        <img src="{{ place.imageGallery[5] }}" alt="Imagen Galería 6" id="{{ place.imageGallery[5] }}">
-      </mat-grid-tile>
-    
-      <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[6])">
-        <img src="{{ place.imageGallery[6] }}" alt="Imagen Galería 7" id="{{ place.imageGallery[6] }}">
-      </mat-grid-tile>
-    
-      <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[7])">
-        <img src="{{ place.imageGallery[7] }}" alt="Imagen Galería 8" id="{{ place.imageGallery[7] }}">
-      </mat-grid-tile>
+    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[5])">
+      <img src="{{ place.imageGallery[5] }}" alt="Imagen Galería 6" id="{{ place.imageGallery[5] }}">
+    </mat-grid-tile>
   
-  </mat-grid-list>
-  <div class="parrafos" *ngIf="place">
-    <h2>{{ place.description }}</h2>
-    <h3>{{ place.parrafo1 }}</h3>
-    <h3>{{ place.parrafo2 }}</h3>
-  </div>
+    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[6])">
+      <img src="{{ place.imageGallery[6] }}" alt="Imagen Galería 7" id="{{ place.imageGallery[6] }}">
+    </mat-grid-tile>
   
-  <div class="commentsRatingDiv" *ngIf="place">
-    <ng-container *ngIf="place.rating?.length > 0; else nvRating">
-      <div class="ratingDiv">
-        <h3 class="bold">Valoración:</h3>
-        <h3 class="bold"> {{ calcularMedia(place.rating) }} </h3>
-        <mat-icon style="color: yellow;">star</mat-icon>
-      </div>
-    </ng-container>
-    <ng-template #nvRating>
-      <div class="ratingDiv">
-        <h3 class="bold">Valoración:</h3>
-        <h3 class="bold">NV</h3>
-        <mat-icon style="color: grey;">star</mat-icon>
-      </div>
-    </ng-template>
-  
-    <hr>
-  
-    <div id="comments">
-      <h3 class="bold">Comentarios</h3>
-      <div *ngIf="place.comments?.length > 0; else noComments">
-        <div *ngFor="let comment of place.comments; let i = index" class="comment">
-          <div class="commentRating">
-            <p>{{ place.rating?.[i] || "N/A" }}</p>
-          </div>
-          <p>{{ comment }}</p>
-          <br>
+    <mat-grid-tile (click)="cambiarImgCental(place.imageUrl, place.imageGallery[7])">
+      <img src="{{ place.imageGallery[7] }}" alt="Imagen Galería 8" id="{{ place.imageGallery[7] }}">
+    </mat-grid-tile>
+
+</mat-grid-list>
+<div class="parrafos" *ngIf="place">
+  <h2>{{ place.description }}</h2>
+  <h3>{{ place.parrafo1 }}</h3>
+  <h3>{{ place.parrafo2 }}</h3>
+</div>
+
+<div class="commentsRatingDiv" *ngIf="place">
+  <ng-container *ngIf="place.rating?.length > 0; else nvRating">
+    <div class="ratingDiv">
+      <h3 class="bold">Valoración:</h3>
+      <h3 class="bold"> {{ calcularMedia(place.rating) }} </h3>
+      <mat-icon style="color: yellow;">star</mat-icon>
+    </div>
+  </ng-container>
+  <ng-template #nvRating>
+    <div class="ratingDiv">
+      <h3 class="bold">Valoración:</h3>
+      <h3 class="bold">NV</h3>
+      <mat-icon style="color: grey;">star</mat-icon>
+    </div>
+  </ng-template>
+
+  <hr>
+
+  <div id="comments">
+    <h3 class="bold">Comentarios</h3>
+    <div *ngIf="place.comments?.length > 0; else noComments">
+      <div *ngFor="let comment of place.comments; let i = index" class="comment">
+        <div class="commentRating">
+          <p>{{ place.rating?.[i] || "N/A" }}</p>
         </div>
-      </div>
-  
-      <ng-template #noComments>
-        <p>No hay comentarios disponibles.</p>
-      </ng-template>
-  
-      <div *ngIf="loggedIn && !place.commentUser?.includes(loggedUserId);">
-        <form [formGroup]="formCommentRating" class="commentForm" (submit)="submitformCommentRating()">
-          <mat-form-field>
-            <mat-label>Valoración</mat-label>
-            <mat-select formControlName="rating">
-              <mat-option *ngFor="let rating of possibleRating" [value]="rating">
-                {{ rating }}
-              </mat-option>
-            </mat-select>
-            <mat-error *ngIf="formCommentRating.get('rating')?.hasError('required')">
-              Debe indicar una valoración válida
-            </mat-error>
-          </mat-form-field>
-  
-          <mat-form-field>
-            <mat-label>Escriba su opinión</mat-label>
-            <input matInput placeholder="Opinión" formControlName="comment">
-            <mat-error *ngIf="formCommentRating.get('comment')?.hasError('required')">
-              Debe escribir su opinión
-            </mat-error>
-          </mat-form-field>
-  
-          <mat-dialog-actions>
-            <button mat-stroked-button cdkFocusInitial color="primary" type="submit"
-              [disabled]="formCommentRating.invalid">Enviar valoración</button>
-          </mat-dialog-actions>
-        </form>
+        <p>{{ comment }}</p>
+        <br>
       </div>
     </div>
+
+    <ng-template #noComments>
+      <p>No hay comentarios disponibles.</p>
+    </ng-template>
+
+    <div *ngIf="loggedIn && !place.commentUser?.includes(loggedUserId);">
+      <form [formGroup]="formCommentRating" class="commentForm" (submit)="submitformCommentRating()">
+        <mat-form-field>
+          <mat-label>Valoración</mat-label>
+          <mat-select formControlName="rating">
+            <mat-option *ngFor="let rating of possibleRating" [value]="rating">
+              {{ rating }}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="formCommentRating.get('rating')?.hasError('required')">
+            Debe indicar una valoración válida
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Escriba su opinión</mat-label>
+          <input matInput placeholder="Opinión" formControlName="comment">
+          <mat-error *ngIf="formCommentRating.get('comment')?.hasError('required')">
+            Debe escribir su opinión
+          </mat-error>
+        </mat-form-field>
+
+        <mat-dialog-actions>
+          <button mat-stroked-button cdkFocusInitial color="primary" type="submit"
+            [disabled]="formCommentRating.invalid">Enviar valoración</button>
+        </mat-dialog-actions>
+      </form>
+    </div>
   </div>
-  
+</div>

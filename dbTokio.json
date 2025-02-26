@@ -1,109 +1,184 @@
 {
-    "sitios": [
-      {
-        "name": "Templo Sensoji",
-        "description": "El Templo Sensoji es el templo budista más antiguo de Tokio, Japón. Se encuentra en Asakusa, un barrio de Tokio. También es uno de los templos más coloridos y populares de Tokio.",
-        "parrafo1": "El templo fue fundado en el año 645, por lo que es el templo más antiguo de Tokio. El templo está dedicado a Kannon, la diosa de la misericordia. Una leyenda cuenta que dos hermanos pescadores encontraron una estatua de Kannon en el río Sumida y la llevaron a su jefe, quien reconoció la importancia de la estatua y la consagró. El templo se construyó para honrar a Kannon.",
-        "parrafo2": "El templo ha sido reconstruido muchas veces a lo largo de los siglos, pero siempre ha conservado su importancia como lugar de culto y como centro de la vida cultural de Asakusa.",
-        "imageUrl": "../assets/img/temploSensoji.jpg",
-        "imageGallery": [
-          "../assets/img/temploSensoji1.jpg",
-          "../assets/img/temploSensoji2.jpg",
-          "../assets/img/temploSensoji3.jpg",
-          "../assets/img/temploSensoji4.jpg"
-        ],
-        "rating": [],
-        "comments": [],
-        "commentUser": [],
-        "id": "templo_sensoji"
-      },
-      {
-        "name": "Templo Zojoji",
-        "description": "El Templo Zojoji es un templo budista en Tokio, Japón. Se encuentra en el barrio de Minato, cerca de la Torre de Tokio. El templo es conocido por su hermosa arquitectura y su impresionante ubicación frente a la Torre de Tokio.",
-        "parrafo1": "El templo fue fundado en el siglo XIV y ha sido un importante centro de la secta Jodo Shinshu del budismo japonés desde entonces. El templo es conocido por su hermosa arquitectura, que combina elementos tradicionales japoneses con influencias chinas y coreanas.",
-        "parrafo2": "El templo es un lugar popular para los turistas y los lugareños por igual, y es un lugar de culto importante para los seguidores del budismo japonés. El templo es también conocido por su hermoso jardín, que es un oasis de tranquilidad en medio de la bulliciosa ciudad de Tokio.",
-        "imageUrl": "../assets/img/temploZojoji.jpg",
-        "imageGallery": [
-          "../assets/img/temploZojoji1.jpg",
-          "../assets/img/temploZojoji2.jpg",
-          "../assets/img/temploZojoji3.jpg",
-          "../assets/img/temploZojoji4.jpg"
-        ],
-        "rating": [],
-        "comments": [],
-        "commentUser": [],
-        "id": "templo_zojoji"
-      },
-      {
-        "name": "Santuario Meiji Jingu",
-        "description": "El Santuario Meiji Jingu es un santuario sintoísta en Tokio, Japón. Se encuentra en el barrio de Shibuya, cerca del Parque Yoyogi. El santuario es uno de los más importantes de Tokio y es un lugar de culto popular para los lugareños y los turistas.",
-        "parrafo1": "El santuario fue construido en 1920 en honor al Emperador Meiji y a la Emperatriz Shoken. El emperador y la emperatriz fueron los primeros emperadores de la era Meiji, que marcó el comienzo de la modernización de Japón. El santuario es un lugar de culto importante para los seguidores del sintoísmo, la religión indígena de Japón.",
-        "parrafo2": "El santuario es conocido por su hermosa arquitectura y su impresionante ubicación en medio de un bosque de cedros. El santuario es un lugar de paz y tranquilidad en medio de la bulliciosa ciudad de Tokio, y es un lugar popular para los turistas y los lugareños por igual.",
-        "imageUrl": "../assets/img/santuarioMeijiJingu.jpg",
-        "imageGallery": [
-          "../assets/img/santuarioMeijiJingu1.jpg",
-          "../assets/img/santuarioMeijiJingu2.jpg",
-          "../assets/img/santuarioMeijiJingu3.jpg",
-          "../assets/img/santuarioMeijiJingu4.jpg"
-        ],
-        "rating": [],
-        "comments": [],
-        "commentUser": [],
-        "id": "santuario_meiji_jingu"
-      },
-      {
-        "name": "Shibuya Crossing",
-        "description": "Shibuya Crossing es un cruce de peatones en el barrio de Shibuya en Tokio, Japón. Es uno de los cruces de peatones más concurridos del mundo y es un símbolo de la vida urbana en Tokio.",
-        "parrafo1": "El cruce de Shibuya es conocido por su gran tamaño y su diseño en forma de estrella, que permite a los peatones cruzar en todas direcciones. El cruce es especialmente impresionante por la noche, cuando las luces de neón de los edificios circundantes se encienden y crean un espectáculo de luces y colores.",
-        "parrafo2": "El cruce de Shibuya es un lugar popular para los turistas y los lugareños por igual, y es un lugar de encuentro popular para los jóvenes de Tokio. El cruce es un símbolo de la vida urbana en Tokio y es un lugar popular para tomar fotos y videos.",
-        "imageUrl": "../assets/img/shibuyaCrossing.jpg",
-        "imageGallery": [
-          "../assets/img/shibuyaCrossing1.jpg",
-          "../assets/img/shibuyaCrossing2.jpg",
-          "../assets/img/shibuyaCrossing3.jpg",
-          "../assets/img/shibuyaCrossing4.jpg"
-        ],
-        "rating": [],
-        "comments": [],
-        "commentUser": [],
-        "id": "shibuya_crossing"
-      },
-      {
-        "name": "Palacio Imperial de Tokio",
-        "description": "El Palacio Imperial de Tokio es la residencia oficial del Emperador de Japón. Se encuentra en el centro de Tokio, en un gran parque rodeado por un foso y murallas. El palacio es un símbolo de la monarquía japonesa y es un lugar de gran importancia histórica y cultural.",
-        "parrafo1": "El palacio fue construido en 1888 en el lugar donde se encontraba el antiguo castillo de Edo, la residencia de los shogunes de Japón. El palacio es un ejemplo de la arquitectura tradicional japonesa y es conocido por su hermoso jardín y su impresionante ubicación en medio de la bulliciosa ciudad de Tokio.",
-        "parrafo2": "El palacio es un lugar de gran importancia histórica y cultural para los japoneses, y es un lugar popular para los turistas y los lugareños por igual. El palacio es también conocido por su hermoso jardín, que es un oasis de tranquilidad en medio de la bulliciosa ciudad de Tokio.",
-        "imageUrl": "../assets/img/palacioImperialTokio.jpg",
-        "imageGallery": [
-          "../assets/img/palacioImperialTokio1.jpg",
-          "../assets/img/palacioImperialTokio2.jpg",
-          "../assets/img/palacioImperialTokio3.jpg",
-          "../assets/img/palacioImperialTokio4.jpg"
-        ],
-        "rating": [],
-        "comments": [],
-        "commentUser": [],
-        "id": "palacio_imperial_tokio"
-      },
-      {
-        "name":"Torre de Tokio",
-        "description":"La Torre de Tokio es una torre de comunicaciones en Tokio, Japón. Se encuentra en el barrio de Minato, cerca del Templo Zojoji. La torre es uno de los símbolos más reconocibles de Tokio y es un lugar popular para los turistas y los lugareños por igual.",
-        "parrafo1":"La torre fue construida en 1958 como una torre de comunicaciones para la televisión y la radio. La torre es una estructura de acero de 333 metros de altura y es una de las torres de comunicaciones más altas del mundo. La torre es conocida por su hermosa arquitectura y su impresionante ubicación frente al Templo Zojoji.",
-        "parrafo2":"La torre es un lugar popular para los turistas y los lugareños por igual, y es un lugar de encuentro popular para los jóvenes de Tokio. La torre es un símbolo de la vida urbana en Tokio y es un lugar popular para tomar fotos y videos.",
-        "imageUrl":"../assets/img/torreTokio.jpg",
-        "imageGallery":[
-          "../assets/img/torreTokio1.jpg",
-          "../assets/img/torreTokio2.jpg",
-          "../assets/img/torreTokio3.jpg",
-          "../assets/img/torreTokio4.jpg"
-        ],
-        "rating":[],
-        "comments":[],
-        "commentUser":[],
-        "id":"torre_tokio"
-      }
-    ],
-    "users": [
+  "sitios": [
+    {
+      "name": "Templo Sensoji",
+      "description": "El Templo Sensoji es el templo budista más antiguo de Tokio, Japón. Se encuentra en Asakusa, un barrio de Tokio. También es uno de los templos más coloridos y populares de Tokio.",
+      "parrafo1": "El templo fue fundado en el año 645, por lo que es el templo más antiguo de Tokio. El templo está dedicado a Kannon, la diosa de la misericordia. Una leyenda cuenta que dos hermanos pescadores encontraron una estatua de Kannon en el río Sumida y la llevaron a su jefe, quien reconoció la importancia de la estatua y la consagró. El templo se construyó para honrar a Kannon.",
+      "parrafo2": "El templo ha sido reconstruido muchas veces a lo largo de los siglos, pero siempre ha conservado su importancia como lugar de culto y como centro de la vida cultural de Asakusa.",
+      "imageUrl": "../assets/img/temploSensoji-0.jpg",
+      "imageGallery": [
+        "../assets/img/temploSensoji-1.jpg",
+        "../assets/img/temploSensoji-2.jpg",
+        "../assets/img/temploSensoji-3.jpg",
+        "../assets/img/temploSensoji-4.jpg",
+        "../assets/img/temploSensoji-5.jpg",
+        "../assets/img/temploSensoji-6.jpg",
+        "../assets/img/temploSensoji-7.jpg"
+      ],
+      "rating": [
+        4,
+        3
+      ],
+      "comments": [
+        "Un lugar de cultura",
+        "Un lugar de paz"
+      ],
+      "commentUser": [
+        1,
+        2
+      ],
+      "id": "templo_sensoji"
+    },
+    {
+      "name": "Templo Zojoji",
+      "description": "El Templo Zojoji es un templo budista en Tokio, Japón. Se encuentra en el barrio de Minato, cerca de la Torre de Tokio. El templo es conocido por su hermosa arquitectura y su impresionante ubicación frente a la Torre de Tokio.",
+      "parrafo1": "El templo fue fundado en el siglo XIV y ha sido un importante centro de la secta Jodo Shinshu del budismo japonés desde entonces. El templo es conocido por su hermosa arquitectura, que combina elementos tradicionales japoneses con influencias chinas y coreanas.",
+      "parrafo2": "El templo es un lugar popular para los turistas y los lugareños por igual, y es un lugar de culto importante para los seguidores del budismo japonés. El templo es también conocido por su hermoso jardín, que es un oasis de tranquilidad en medio de la bulliciosa ciudad de Tokio.",
+      "imageUrl": "../assets/img/temploZojoji-0.jpg",
+      "imageGallery": [
+        "../assets/img/temploZojoji-1.jpg",
+        "../assets/img/temploZojoji-2.jpg",
+        "../assets/img/temploZojoji-3.jpg",
+        "../assets/img/temploZojoji-4.jpg",
+        "../assets/img/temploZojoji-5.jpg",
+        "../assets/img/temploZojoji-6.jpg",
+        "../assets/img/temploZojoji-7.jpg"
+      ],
+      "rating": [
+        3,
+        3,
+        "4"
+      ],
+      "comments": [
+        "Un templo muy bonito",
+        "Un lugar emblemático",
+        "Un lugar muy tranquilo y una zona muy agradable"
+      ],
+      "commentUser": [
+        1,
+        2,
+        "1kgnia41"
+      ],
+      "id": "templo_zojoji"
+    },
+    {
+      "name": "Santuario Meiji Jingu",
+      "description": "El Santuario Meiji Jingu es un santuario sintoísta en Tokio, Japón. Se encuentra en el barrio de Shibuya, cerca del Parque Yoyogi. El santuario es uno de los más importantes de Tokio y es un lugar de culto popular para los lugareños y los turistas.",
+      "parrafo1": "El santuario fue construido en 1920 en honor al Emperador Meiji y a la Emperatriz Shoken. El emperador y la emperatriz fueron los primeros emperadores de la era Meiji, que marcó el comienzo de la modernización de Japón. El santuario es un lugar de culto importante para los seguidores del sintoísmo, la religión indígena de Japón.",
+      "parrafo2": "El santuario es conocido por su hermosa arquitectura y su impresionante ubicación en medio de un bosque de cedros. El santuario es un lugar de paz y tranquilidad en medio de la bulliciosa ciudad de Tokio, y es un lugar popular para los turistas y los lugareños por igual.",
+      "imageUrl": "../assets/img/santuarioMeijiJingu-0.jpg",
+      "imageGallery": [
+        "../assets/img/santuarioMeijiJingu-1.jpg",
+        "../assets/img/santuarioMeijiJingu-2.jpg",
+        "../assets/img/santuarioMeijiJingu-3.jpg",
+        "../assets/img/santuarioMeijiJingu-4.jpg",
+        "../assets/img/santuarioMeijiJingu-5.jpg",
+        "../assets/img/santuarioMeijiJingu-6.jpg",
+        "../assets/img/santuarioMeijiJingu-7.jpg"
+      ],
+      "rating": [
+        4,
+        4
+      ],
+      "comments": [
+        "Un santuario muy hermoso",
+        "Un lugar con historia"
+      ],
+      "commentUser": [
+        1,
+        2
+      ],
+      "id": "santuario_meiji_jingu"
+    },
+    {
+      "name": "Parque Nacional de Shinjuku Gyoen",
+      "description": "El Parque Nacional de Shinjuku Gyoen es un gran parque y jardín en Tokio, Japón. Es conocido por su belleza natural, especialmente durante la temporada de floración de los cerezos.",
+      "parrafo1": "Originalmente un jardín feudal, Shinjuku Gyoen fue convertido en un parque nacional en 1949. Es un oasis de tranquilidad en medio de la bulliciosa ciudad y cuenta con una combinación de jardines japoneses, ingleses y franceses.",
+      "parrafo2": "El parque es especialmente popular en primavera, cuando los cerezos florecen y atraen a miles de visitantes. También es un lugar ideal para relajarse, pasear y disfrutar de la naturaleza en cualquier época del año.",
+      "imageUrl": "../assets/img/parqueNacionalShinjuku-0.jpg",
+      "imageGallery": [
+        "../assets/img/parqueNacionalShinjuku-1.jpg",
+        "../assets/img/parqueNacionalShinjuku-2.jpg",
+        "../assets/img/parqueNacionalShinjuku-3.jpg",
+        "../assets/img/parqueNacionalShinjuku-4.jpg",
+        "../assets/img/parqueNacionalShinjuku-5.jpg",
+        "../assets/img/parqueNacionalShinjuku-6.jpg",
+        "../assets/img/parqueNacionalShinjuku-7.jpg"
+      ],
+      "rating": [
+        4,
+        5
+      ],
+      "comments": [
+        "Los jardines son impresionantes, especialmente en primavera.",
+        "Ideal para un paseo relajante o un picnic."
+      ],
+      "commentUser": [
+        1,
+        2
+      ],
+      "id": "parque_nacional_shinjuku_gyoen"
+    },
+    {
+      "name": "Palacio Imperial de Tokio",
+      "description": "El Palacio Imperial de Tokio es la residencia oficial del Emperador de Japón. Se encuentra en el centro de Tokio, en un gran parque rodeado por un foso y murallas. El palacio es un símbolo de la monarquía japonesa y es un lugar de gran importancia histórica y cultural.",
+      "parrafo1": "El palacio fue construido en 1888 en el lugar donde se encontraba el antiguo castillo de Edo, la residencia de los shogunes de Japón. El palacio es un ejemplo de la arquitectura tradicional japonesa y es conocido por su hermoso jardín y su impresionante ubicación en medio de la bulliciosa ciudad de Tokio.",
+      "parrafo2": "El palacio es un lugar de gran importancia histórica y cultural para los japoneses, y es un lugar popular para los turistas y los lugareños por igual. El palacio es también conocido por su hermoso jardín, que es un oasis de tranquilidad en medio de la bulliciosa ciudad de Tokio.",
+      "imageUrl": "../assets/img/palacioImperialTokio-0.jpg",
+      "imageGallery": [
+        "../assets/img/palacioImperialTokio-1.jpg",
+        "../assets/img/palacioImperialTokio-2.jpg",
+        "../assets/img/palacioImperialTokio-3.jpg",
+        "../assets/img/palacioImperialTokio-4.jpg",
+        "../assets/img/palacioImperialTokio-5.jpg",
+        "../assets/img/palacioImperialTokio-6.jpg",
+        "../assets/img/palacioImperialTokio-7.jpg"
+      ],
+      "rating": [
+        4,
+        5
+      ],
+      "comments": [
+        "Un palacio histórico de gran belleza",
+        "Un lugar con mucha historia"
+      ],
+      "commentUser": [
+        1,
+        2
+      ],
+      "id": "palacio_imperial_tokio"
+    },
+    {
+      "name": "Torre de Tokio",
+      "description": "La Torre de Tokio es una torre de comunicaciones en Tokio, Japón. Se encuentra en el barrio de Minato, cerca del Templo Zojoji. La torre es uno de los símbolos más reconocibles de Tokio y es un lugar popular para los turistas y los lugareños por igual.",
+      "parrafo1": "La torre fue construida en 1958 como una torre de comunicaciones para la televisión y la radio. La torre es una estructura de acero de 333 metros de altura y es una de las torres de comunicaciones más altas del mundo. La torre es conocida por su hermosa arquitectura y su impresionante ubicación frente al Templo Zojoji.",
+      "parrafo2": "La torre es un lugar popular para los turistas y los lugareños por igual, y es un lugar de encuentro popular para los jóvenes de Tokio. La torre es un símbolo de la vida urbana en Tokio y es un lugar popular para tomar fotos y videos.",
+      "imageUrl": "../assets/img/torreTokio-0.jpg",
+      "imageGallery": [
+        "../assets/img/torreTokio-1.jpg",
+        "../assets/img/torreTokio-2.jpg",
+        "../assets/img/torreTokio-3.jpg",
+        "../assets/img/torreTokio-4.jpg",
+        "../assets/img/torreTokio-5.jpg",
+        "../assets/img/torreTokio-6.jpg",
+        "../assets/img/torreTokio-7.jpg"
+      ],
+      "rating": [
+        3,
+        4
+      ],
+      "comments": [
+        "Copia barata de la de los franceses",
+        "Unas vistas preciosas"
+      ],
+      "commentUser": [
+        1,
+        2
+      ],
+      "id": "torre_tokio"
+    }
+  ],
+  "users": [
     {
       "id": 1,
       "firstName": "Mario",
@@ -127,7 +202,18 @@
       "gender": "masculino",
       "phone": "123456789",
       "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "id": "3",
+      "firstName": "Julián",
+      "lastName": "Martínez",
+      "comunidad": "Andalucía",
+      "email": "julian@gmail.com",
+      "role": "usuario",
+      "birthday": "1994-03-02T23:00:00.000Z",
+      "gender": "masculino",
+      "phone": "123456789",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
     }
   ]
-  }
-  
+}

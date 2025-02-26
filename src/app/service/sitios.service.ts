@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class SitiosService {
-  private urlBBDD = 'http://localhost:3000/sitios'; // JSON-Server
+  private urlBBDD = 'http://localhost:3000/sitios';
 
   constructor(private _http: HttpClient) {}
 

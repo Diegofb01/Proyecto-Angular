@@ -1,16 +1,21 @@
-<mat-toolbar color="primary">
-    <span routerLink="/inicio" class="enlace">Turismo Tokio</span>
-    <span class="example-spacer"></span>
-    <span class="example-spacer"></span>
+<mat-toolbar id="navbar">
+  <span routerLink="/inicio" class="logo">Turismo Tokio</span>
   
-    <button *ngIf="isAdmin" mat-button routerLink="adminplaces">Administración de lugares</button>
-  
-    <button *ngIf="isAdmin || isUser" mat-flat-button color="accent" class="menuButton" (click)="logout()">
-      Salir ({{ firstname }})
-    </button>
+  <span class="spacer"></span>
 
-    <button *ngIf="!isAdmin && !isUser" mat-flat-button color="accent" class="menuButton" routerLink="login">Login</button>
-    <button *ngIf="!isAdmin && !isUser" mat-flat-button color="accent" class="menuButton" routerLink="reg-form">Registrar</button>
-  </mat-toolbar>
-  
-  
+  <button *ngIf="isAdmin" mat-button routerLink="adminplaces" class="nav-button">
+    Administración de lugares
+  </button>
+
+  <button *ngIf="isAdmin || isUser" mat-flat-button class="nav-button logout" (click)="logout()">
+    Salir ({{ firstname }})
+  </button>
+
+  <button *ngIf="!isAdmin && !isUser" mat-flat-button class="nav-button login" routerLink="login">
+    Login
+  </button>
+
+  <button *ngIf="!isAdmin && !isUser" mat-flat-button class="nav-button register" routerLink="registro">
+    Registrar
+  </button>
+</mat-toolbar>

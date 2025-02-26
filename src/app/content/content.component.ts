@@ -27,8 +27,8 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './content.component.css'
 })
 export class ContentComponent implements OnInit {
-  place: any = null; // Inicializado en `null` para evitar errores de acceso
-  isLoading: boolean = true; // Indica si se está cargando el sitio
+  place: any = null; 
+  isLoading: boolean = true; 
   formCommentRating: FormGroup;
 
   possibleRating = ['0', '1', '2', '3', '4', '5'];
