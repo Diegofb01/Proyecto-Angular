@@ -1,0 +1,83 @@
+.registro {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #d50000;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 16px;
+    color: #333;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 8px;
+  }
+  
+  .image-preview {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .image-preview img, .gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .divBtns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  button[mat-button] {
+    color: #d50000;
+  }
+  
+  button[mat-flat-button] {
+    background-color: #d50000;
+    color: white;
+  }
+  
+  button[mat-icon-button] {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
