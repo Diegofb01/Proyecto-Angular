@@ -52,7 +52,6 @@ export class AdminPlacesComponent implements OnInit {
     this.showPlaces();
   }
 
-  
   checkUserRole() {
     const token = this._cookieService.get("token");
     if (!token) {
@@ -76,7 +75,6 @@ export class AdminPlacesComponent implements OnInit {
     }
   }
 
- 
   showPlaces() {
     this._placesService.getPlacesAdmin().subscribe({
       next: (res) => {
@@ -88,7 +86,6 @@ export class AdminPlacesComponent implements OnInit {
     });
   }
 
-  
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
@@ -98,7 +95,6 @@ export class AdminPlacesComponent implements OnInit {
     }
   }
 
-  
   eliminarSitio(id: string): void {
     const dialogRef = this.dialog.open(ConfirmdialogComponent, {
       width: '600px',
@@ -120,7 +116,6 @@ export class AdminPlacesComponent implements OnInit {
     });
   }
 
- 
   editPlace(data: PlaceModel) {
     const dialogRef = this.dialog.open(AddEditPlaceComponent, {
       width: '750px', 
@@ -133,7 +128,6 @@ export class AdminPlacesComponent implements OnInit {
     });
   }
 
-  
   createPlace() {
     const dialogRef = this.dialog.open(AddEditPlaceComponent, {
       width: '750px',
@@ -141,7 +135,6 @@ export class AdminPlacesComponent implements OnInit {
       data: null 
     });
     
-
     dialogRef.afterClosed().subscribe(val => {
       if (val) this.showPlaces();
     });

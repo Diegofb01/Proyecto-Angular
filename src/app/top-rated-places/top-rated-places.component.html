@@ -1,0 +1,12 @@
+<mat-card class="section-card">
+    <mat-card-title>🏆 Lugares Mejor Valorados</mat-card-title>
+    <mat-list *ngIf="topRatedPlaces.length > 0; else noData">
+      <mat-list-item *ngFor="let place of topRatedPlaces">
+        <span class="place-name">{{ place.name }}</span> 
+        <span class="rating">⭐ {{ place.avgRating | number: '1.1-1' }}</span>
+      </mat-list-item>
+    </mat-list>
+    <ng-template #noData>
+      <p>No hay lugares con calificaciones disponibles.</p>
+    </ng-template>
+  </mat-card>

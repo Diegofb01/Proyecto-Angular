@@ -8,6 +8,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { SitiosService } from '../service/sitios.service';
 import { PdfMakeWrapper, Txt, Img } from 'pdfmake-wrapper';
 import pdfFonts from 'pdfmake/build/vfs_fonts';
+import { TopRatedPlacesComponent } from '../top-rated-places/top-rated-places.component';
+import { RandomCommentsComponent } from '../random-comments/random-comments.component';
 
 PdfMakeWrapper.setFonts(pdfFonts as any); 
 
@@ -20,7 +22,9 @@ PdfMakeWrapper.setFonts(pdfFonts as any);
     MatCardModule,  
     MatGridListModule,  
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    TopRatedPlacesComponent,
+    RandomCommentsComponent
   ],
   templateUrl: './contentcard.component.html',
   styleUrls: ['./contentcard.component.css']

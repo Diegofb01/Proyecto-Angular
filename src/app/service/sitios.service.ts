@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { PlaceModel } from '../models/place.model';
 import { HttpClient } from '@angular/common/http';
-
+import { map } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
@@ -42,4 +42,27 @@ export class SitiosService {
     console.log("Eliminando sitio con ID:", id);
     return this._http.delete<void>(`${this.urlBBDD}/${id}`);
   }
+
+  getComments(): Observable<{ place: string; text: string; rating?: number }[]> {
+    return this._http.get<PlaceModel[]>(this.urlBBDD).pipe(
+      map((places: PlaceModel[]) => {
+        let commentsArray: { place: string; text: string; rating?: number }[] = [];
+  
+        places.forEach((place: PlaceModel) => {
+          if (Array.isArray(place.comments)) {
+            place.comments.forEach(commentText => {
+              commentsArray.push({
+                place: place.name,
+                text: commentText, 
+                rating: undefined  
+              });
+            });
+          }
+        });
+  
+        return commentsArray;
+      })
+    );
+  }
+  
 }
